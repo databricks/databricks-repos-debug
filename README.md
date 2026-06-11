@@ -10,6 +10,8 @@ This repository is built to help you resolve issues with Databricks Git folders 
 
 ## Repository contents
 
+* `serverless_git_connectivity_debug` ([link in GitHub](./serverless_git_connectivity_debug.ipynb))
+    - Validates network connectivity from **serverless compute** to a private Git remote. Tests DNS resolution, HTTPS reachability, and Git CLI availability. Must be run on serverless compute.
 * `folder/`
     - Contains notebooks used for `sys.path` (importing) issues verification.
       These notebooks are placed in a subfolder to check for correct imports from
